@@ -10,11 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace JiHuangBaiKeForMobile.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AboutPage : ContentPage
+	public partial class SettingPage : ContentPage
 	{
-		public AboutPage()
+		public SettingPage ()
 		{
-			InitializeComponent();
+			InitializeComponent ();
 		}
 	}
 }

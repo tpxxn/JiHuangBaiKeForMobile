@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace JiHuangBaiKeForMoblie.iOS
+namespace JiHuangBaiKeForMobile.iOS
 {
 	public class Application
 	{

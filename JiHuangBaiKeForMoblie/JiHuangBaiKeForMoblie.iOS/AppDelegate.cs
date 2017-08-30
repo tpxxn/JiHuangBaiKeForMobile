@@ -2,7 +2,7 @@
 using Foundation;
 using UIKit;
 
-namespace JiHuangBaiKeForMoblie.iOS
+namespace JiHuangBaiKeForMobile.iOS
 {
 	[Register("AppDelegate")]
 	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate

@@ -2,9 +2,9 @@
 using Android.Content.PM;
 using Android.OS;
 
-namespace JiHuangBaiKeForMoblie.Droid
+namespace JiHuangBaiKeForMobile.Droid
 {
-    [Activity(Label = "JiHuangBaiKeForMoblie.Android", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "饥荒百科全书 by tpxxn", Icon = "@drawable/logo", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

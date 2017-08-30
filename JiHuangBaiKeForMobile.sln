@@ -3,16 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JiHuangBaiKeForMoblie", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.shproj", "{19CD7ABB-BBCF-4F0C-AA3D-C2B2668974B9}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JiHuangBaiKeForMobile", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie\JiHuangBaiKeForMobile.shproj", "{19CD7ABB-BBCF-4F0C-AA3D-C2B2668974B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiHuangBaiKeForMoblie.Android", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.Android\JiHuangBaiKeForMoblie.Android.csproj", "{180B011D-21BC-4FFB-B240-9A733A7CF31B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiHuangBaiKeForMobile.Android", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.Android\JiHuangBaiKeForMobile.Android.csproj", "{180B011D-21BC-4FFB-B240-9A733A7CF31B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiHuangBaiKeForMoblie.iOS", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.iOS\JiHuangBaiKeForMoblie.iOS.csproj", "{78F27E5D-BDC5-4DF6-833F-A1DA83C65B27}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiHuangBaiKeForMoblie.UWP", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.UWP\JiHuangBaiKeForMoblie.UWP.csproj", "{08F301B9-0FED-4EFF-9952-A56AC979367B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiHuangBaiKeForMobile.iOS", "JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.iOS\JiHuangBaiKeForMobile.iOS.csproj", "{78F27E5D-BDC5-4DF6-833F-A1DA83C65B27}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.projitems*{180b011d-21bc-4ffb-b240-9a733a7cf31b}*SharedItemsImports = 4
 		JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.projitems*{19cd7abb-bbcf-4f0c-aa3d-c2b2668974b9}*SharedItemsImports = 13
 		JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie\JiHuangBaiKeForMoblie.projitems*{78f27e5d-bdc5-4df6-833f-a1da83c65b27}*SharedItemsImports = 4
 	EndGlobalSection
@@ -83,30 +82,6 @@ Global
 		{78F27E5D-BDC5-4DF6-833F-A1DA83C65B27}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{78F27E5D-BDC5-4DF6-833F-A1DA83C65B27}.Release|x64.ActiveCfg = Release|iPhone
 		{78F27E5D-BDC5-4DF6-833F-A1DA83C65B27}.Release|x86.ActiveCfg = Release|iPhone
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|ARM.ActiveCfg = Debug|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|ARM.Build.0 = Debug|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|ARM.Deploy.0 = Debug|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|iPhone.ActiveCfg = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x64.ActiveCfg = Debug|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x64.Build.0 = Debug|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x64.Deploy.0 = Debug|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x86.ActiveCfg = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x86.Build.0 = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Debug|x86.Deploy.0 = Debug|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|Any CPU.ActiveCfg = Release|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|ARM.ActiveCfg = Release|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|ARM.Build.0 = Release|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|ARM.Deploy.0 = Release|ARM
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|iPhone.ActiveCfg = Release|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|iPhoneSimulator.ActiveCfg = Release|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x64.ActiveCfg = Release|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x64.Build.0 = Release|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x64.Deploy.0 = Release|x64
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x86.ActiveCfg = Release|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x86.Build.0 = Release|x86
-		{08F301B9-0FED-4EFF-9952-A56AC979367B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
